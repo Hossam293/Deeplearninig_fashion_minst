@@ -91,24 +91,18 @@ pip install torch torchvision matplotlib pandas numpy
 
 ### Steps
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
-   ```
-
-2. **Install dependencies:**
+1. **Install dependencies:**
    ```bash
    pip install torch torchvision matplotlib pandas numpy
    ```
 
-3. **Run the notebook:**
+2. **Run the notebook:**
    ```bash
    jupyter notebook project_Deeplearning.ipynb
    ```
    Or open it in **Google Colab** for free GPU access.
 
-4. **Run all cells in order.** The dataset will be downloaded automatically on the first run.
+3. **Run all cells in order.** The dataset will be downloaded automatically on the first run.
 
 ---
 
@@ -124,7 +118,3 @@ jupyter
 ```
 
 ---
-
-## Author
-
-Deep Learning Course Project — Faculty of Computers and Information
