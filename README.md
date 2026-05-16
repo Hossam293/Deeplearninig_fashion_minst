@@ -69,8 +69,8 @@ The goal of this project is to classify grayscale images of clothing items into 
 
 | Model | Optimizer | Enhancements | Final Val Accuracy | Final Val Loss |
 |-------|-----------|-------------|-------------------|----------------|
-| Model 1 (Basic CNN) | SGD | None | ~82% | ~0.50 |
-| Model 2 (Enhanced CNN) | Adam + Scheduler | BatchNorm, Dropout, 2 Conv layers | ~91% | ~0.25 |
+| Model 1 (Basic CNN) | SGD | None | ~89% | ~0.28 |
+| Model 2 (Enhanced CNN) | Adam + Scheduler | BatchNorm, Dropout, 2 Conv layers | ~92% | ~0.22 |
 
 > **Note:** Exact values depend on the training run. Results are printed at the end of the notebook.
 
@@ -78,16 +78,6 @@ The goal of this project is to classify grayscale images of clothing items into 
 - Model 2 significantly outperforms Model 1 due to deeper architecture and better regularization.
 - Batch Normalization stabilizes and speeds up training.
 - Adam with LR scheduling converges faster than plain SGD.
-
----
-
-## Project Structure
-
-```
-├── project_Deeplearning.ipynb   # Main notebook with all code
-├── README.md                    # This file
-└── data/                        # Auto-downloaded by torchvision
-```
 
 ---
 
